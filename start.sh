@@ -13,4 +13,4 @@ done
 echo "MySQL ready"
 
 # Start HTTP server (foreground)
-python /health.py
+python3 /health.py
