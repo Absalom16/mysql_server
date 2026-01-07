@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y python3 && rm -rf /var/lib/apt/lists/*
 
 COPY health.py /health.py
 COPY start.sh /start.sh
+RUN chmod +x /start.sh
 
 EXPOSE 80
 EXPOSE 3306
